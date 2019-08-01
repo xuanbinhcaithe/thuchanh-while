@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành cấu trúc while</title>
+</head>
+<body>
+    <!--viết chương trình nhận vào một số tự hộp thoại ,việc nhập kết thúc khi người dùng nhập
+    vào giá trị -1.Mỗi giá trị sẽ được hiện thị ra và thực hiệm tính tổng các giá trị đó -->
+    <script>
+        let tong=0;
+        let number=parseInt(prompt("enter your number"));
+        while (number!== -1){
+            number=parseInt(prompt("enter your number"));
+            tong=tong+number;
+        }
+        alert(tong);
+    </script>
+</body>
+</html>
